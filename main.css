@@ -1,13 +1,17 @@
 /*new*/
-#ski {
-    background-color: green;
+#title-on {
+    background-color: wheat;
     display: block;
     text-decoration: none;
     border: solid;
     border-width: 2px;
     border-color: black;
-    width: 200px;
-    text-align: center;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
+    font-size: 36px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
 }

@@ -1,20 +1,10 @@
 /*new*/
-a {
+#ski {
     background-color: green;
     display: block;
     text-decoration: none;
     border: solid;
     border-color: black;
-    width: 200px;
-    text-align: center;
-}
-
-a:hover {
-    background-color: red;
-    display: block;
-    text-decoration: none;
-    border: solid;
-    border-color: blue;
     width: 200px;
     text-align: center;
 }

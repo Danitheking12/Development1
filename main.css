@@ -30,13 +30,23 @@ body {
 }
 
 button:hover {
-    color: aqua;
+    color: lightblue;
 }
 
 html {
-    margin: 10px;
+    margin: 20px;
 }
 
-h1:hover {
-    color: aquamarine;
+#bombs {
+    text-decoration: none;
+}
+
+#bombs:hover {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px;
+    background-color: lightcoral;
+    box-shadow: 5px 10px;
 }

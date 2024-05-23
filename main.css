@@ -1,8 +1,9 @@
 /*new*/
-#title-on {
+/*#Title-on {
     background-color: wheat;
     display: block;
     text-decoration: none;
+    width: 400px;
     border: solid;
     border-width: 2px;
     border-color: rgb(228, 150, 150);
@@ -10,13 +11,32 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-size: 36px;
+}*/
+
+#Title-on {
+    color: lightgreen;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: darkgreen;
+    background-image: "utility.png";
 }
 
-#cuticle {
-    position: center;
+body {
+    background-image: url('utility1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+button:hover {
+    color: aqua;
+}
+
+html {
+    margin: 10px;
+}
+
+h1:hover {
+    color: aquamarine;
 }

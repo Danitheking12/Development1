@@ -4,7 +4,10 @@
     display: block;
     text-decoration: none;
     border: solid;
+    border-width: 2px;
     border-color: black;
     width: 200px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
 }

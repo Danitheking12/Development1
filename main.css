@@ -1,5 +1,5 @@
 /*new*/
-/*#Title-on {
+#Title-on {
     background-color: wheat;
     display: block;
     text-decoration: none;
@@ -11,10 +11,6 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-size: 36px;
-}*/
-
-#Title-on {
-    color: lightgreen;
 }
 
 body {
@@ -34,7 +30,7 @@ button:hover {
 }
 
 html {
-    margin: 20px;
+    margin: 10px;
 }
 
 #bombs {
@@ -49,4 +45,24 @@ button {
     padding: 10px;
     background-color: lightcoral;
     box-shadow: 5px 10px;
+}
+p {
+    width: 45%;
+    padding: 10px;
+    margin: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+section {
+    clear: both;
+}
+
+#P1 {
+    float: left;
+}
+
+#P2 {
+    float: right;
 }
